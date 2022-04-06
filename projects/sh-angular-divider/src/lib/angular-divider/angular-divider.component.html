@@ -1,0 +1,23 @@
+<div class="sh-margin">
+    <div *ngIf="!text" class="line-only">
+        <ng-container *ngTemplateOutlet="lineWithText"></ng-container>
+    </div>
+
+    <div *ngIf="text" class="sh-d-flex sh-align-items-center">
+        <ng-container *ngIf="config?.textAlign==align.Center || config?.textAlign==align.Right">
+            <ng-container *ngTemplateOutlet="lineWithText"></ng-container>
+        </ng-container>
+        <span class="sh-margin" [ngClass]="config?.textClass || 'sh-text'"
+            [style.color]="config?.textClass?'':config?.textColor">
+            {{text}}
+        </span>
+        <ng-container *ngIf="config?.textAlign==align.Center || config?.textAlign==align.Left">
+            <ng-container *ngTemplateOutlet="lineWithText"></ng-container>
+        </ng-container>
+    </div>
+</div>
+<ng-template #lineWithText>
+    <div [style.height.px]="config?.height" [style.color]="config?.lineColor || defaultColor" [class.flex-grow-1]="text"
+        [style.background-color]="config?.lineStyle?'':(config?.lineColor || defaultColor)"
+        [style.border-width.px]="config?.height || 1" class="flex-grow-1 line" [ngClass]="config?.lineStyle || ''"></div>
+</ng-template>

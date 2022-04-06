@@ -1,0 +1,39 @@
+{
+  "name": "sh-angular-divider",
+  "version": "0.0.1",
+  "author": {
+    "name": "Hakime sheikhalishahi",
+    "email": "h.sheykhalishahi@gmail.com",
+    "url": "http://www.linkedin.com/in/hakime-sheikhalishahi"
+  },
+  "description": "angular custom divider",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/HakimeSheikhalishahi/sh-angular-divider.git"
+  },
+  "homepage": "https://github.com/HakimeSheikhalishahi/sh-angular-divider#readme",
+  "peerDependencies": {
+    "@angular/common": "^13.1.0",
+    "@angular/core": "^13.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "keywords": [
+    "angular",
+    "library",
+    "front-end",
+    "component",
+    "components",
+    "divider",
+    "angularDivider",
+    "layout",
+    "form",
+    "design",
+    "dynamic",
+    "builder",
+    "custom-divider",
+    "typescript",
+    "colorFul"
+  ]
+}

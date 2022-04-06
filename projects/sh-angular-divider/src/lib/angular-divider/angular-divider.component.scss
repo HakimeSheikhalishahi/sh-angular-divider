@@ -1,0 +1,39 @@
+.dashed {
+  border-top: dashed;
+}
+.dotted {
+  border-top: dotted;
+}
+.solid {
+  border-top: solid;
+}
+.rounded {
+  border-top: solid;
+  border-radius: 5px;
+}
+.line {
+  min-height: 1px;
+}
+.flex-grow-1 {
+  flex-grow: 1;
+}
+.sh-bg-gray {
+  background-color: #dedede;
+}
+.sh-text {
+  color: rgb(205, 205, 205);
+}
+.sh-margin{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.sh-d-flex {
+  display: flex;
+}
+.sh-align-items-center {
+  align-items: center;
+}
+.line-only{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
