@@ -10,6 +10,21 @@
 - `Text style and color`
 - `Text align`
 - `Line without text`
+
+# Demo
+
+<a href="https://stackblitz.com/edit/angular-hknv4k?file=src%2Fapp%2Fapp.component.ts">
+stackblitz
+</a>
+
+## Table of contents
+
+- [Install](#install)
+- [Quick start](#quick-start)
+- [Input](#input)
+- [Creator](#creator)
+- [License](#license)
+
 # Install
 
 ```bash
@@ -52,7 +67,7 @@ dividerConfig: IDividerConfig = {
 | [config](#Config) | `IDividerConfig` | `{}`    | no        | Divider config                     |
 | text              | `number`         | `1px`   | no        | Text that you want to show in line |
 
-# Config
+## Config
 
 | Name      | Type     | Default  | Required? | Description                                              |
 | --------- | -------- | -------- | --------- | -------------------------------------------------------- |
