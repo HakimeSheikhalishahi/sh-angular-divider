@@ -1,24 +1,75 @@
-# ShAngularDivider
+<h2 align="center">Angular divider</h2>
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.0.
+<p align="center">
+ Custom divider with text
+ </p>
+ 
+ ![todo](https://user-images.githubusercontent.com/51107856/161961369-08664e2e-238f-431f-b5cb-1fe8acce0fa1.png?raw=true "Dynamic Form Builder")
+# Angular divider
+- `Line style and color`
+- `Text style and color`
+- `Text align`
+- `Line without text`
+# Install
 
-## Code scaffolding
+```bash
+npm i sh-angular-divider
+```
 
-Run `ng generate component component-name --project shAngularDivider` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project shAngularDivider`.
-> Note: Don't forget to add `--project shAngularDivider` or else it will be added to the default project in your `angular.json` file. 
+# Quick start
 
-## Build
+```typescript
+import { ShAngularDividerModule } from "sh-angular-divider";
 
-Run `ng build shAngularDivider` to build the project. The build artifacts will be stored in the `dist/` directory.
+@NgModule({
+  imports: [ShAngularDividerModule],
+})
+export class AppModule {}
+```
 
-## Publishing
+## In component
 
-After building your library with `ng build shAngularDivider`, go to the dist folder `cd dist/sh-angular-divider` and run `npm publish`.
+```typescript
+dividerConfig: IDividerConfig = {
+  height: 2,
+  lineStyle: "dashed",
+  lineColor: "green",
+  textColor: "green",
+};
+```
 
-## Running unit tests
+```html
+<sh-angular-divider
+  [config]="dividerConfig"
+  [text]="'my text'"
+></sh-angular-divider>
+```
 
-Run `ng test shAngularDivider` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Input
 
-## Further help
+| Name              | Type             | Default | Required? | Description                        |
+| ----------------- | ---------------- | ------- | --------- | ---------------------------------- |
+| [config](#Config) | `IDividerConfig` | `{}`    | no        | Divider config                     |
+| text              | `number`         | `1px`   | no        | Text that you want to show in line |
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Config
+
+| Name      | Type     | Default  | Required? | Description                                              |
+| --------- | -------- | -------- | --------- | -------------------------------------------------------- |
+| height    | `number` | `1px`    | no        | Line height                                              |
+| textAlign | `string` | `center` | no        | Allowed values: `left` , `right` , `center`.             |
+| lineStyle | `string` | `solid`  | no        | Allowed values: `dashed`, `dotted` , `solid` , `rounded` |
+| lineColor | `string` | `gray`   | no        | Line color.                                              |
+| textColor | `string` | `gray`   | no        | Text color.                                              |
+| textClass | `string` | `-`      | no        |                                                          |
+
+# Creator
+
+**Hakime sheikhalishahi**
+
+- http://www.linkedin.com/in/hakime-sheikhalishahi
+- h.sheykhalishahi@gmail.com
+
+# License
+
+MIT

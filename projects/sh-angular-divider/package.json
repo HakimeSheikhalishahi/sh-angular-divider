@@ -34,6 +34,9 @@
     "builder",
     "custom-divider",
     "typescript",
-    "colorFul"
+    "colorFul",
+    "text-divider",
+    "center-text-divider",
+    "angular-center-text-divider"
   ]
 }
