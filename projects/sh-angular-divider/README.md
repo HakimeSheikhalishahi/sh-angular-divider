@@ -4,7 +4,7 @@
  Custom divider with text
  </p>
  
- ![todo](https://user-images.githubusercontent.com/51107856/161961369-08664e2e-238f-431f-b5cb-1fe8acce0fa1.png?raw=true "Dynamic Form Builder")
+ ![divider](https://user-images.githubusercontent.com/51107856/161973739-a482189e-9407-4a9b-8576-276242829098.png?raw=true "Angular divider")
 # Angular divider
 - `Line style and color`
 - `Text style and color`
