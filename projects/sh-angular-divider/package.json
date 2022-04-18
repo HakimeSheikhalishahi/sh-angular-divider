@@ -1,12 +1,12 @@
 {
   "name": "sh-angular-divider",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "author": {
     "name": "Hakime sheikhalishahi",
     "email": "h.sheykhalishahi@gmail.com",
     "url": "http://www.linkedin.com/in/hakime-sheikhalishahi"
   },
-  "description": "angular custom divider",
+  "description": "Angular custom divider",
   "license": "MIT",
   "repository": {
     "url": "git+https://github.com/HakimeSheikhalishahi/sh-angular-divider.git"
