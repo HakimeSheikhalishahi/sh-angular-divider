@@ -76,7 +76,7 @@ dividerConfig: IDividerConfig = {
 | lineStyle | `string` | `solid`  | no        | Allowed values: `dashed`, `dotted` , `solid` , `rounded` |
 | lineColor | `string` | `gray`   | no        | Line color.                                              |
 | textColor | `string` | `gray`   | no        | Text color.                                              |
-| textClass | `string` | `-`      | no        |                                                          |
+| textClass | `string` | `-`      | no        | Set style for text, you can add one or more class name split by space. for example:'class1 class1 class1'                                                          |
 
 # Creator
 
